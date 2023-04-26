@@ -33,7 +33,7 @@ import subprocess, vim
 
 howdoi_installed = vim.eval("executable('howdoi')")
 if howdoi_installed == "0":
-  print "Expected howdoi package to be installed"
+  print("Expected howdoi package to be installed")
 
 filetypes = {
   "c" : "c", 
